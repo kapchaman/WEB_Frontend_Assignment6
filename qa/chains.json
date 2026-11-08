@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Who is in the hall?",
+    "kind": "guests",
+    "code": "$('#hall .guest')"
+  },
+  {
+    "title": "Yellow or purple clothes",
+    "kind": "guests",
+    "code": "$('.guest.color-yellow, .guest.color-purple')"
+  },
+  {
+    "title": "AITU students upstairs",
+    "kind": "guests",
+    "code": "$('.floor[data-floor=\"2\"] .guest.aitu')"
+  },
+  {
+    "title": "Glasses or a bag",
+    "kind": "guests",
+    "code": "$('.guest.has-glasses, .guest.has-bag')"
+  },
+  {
+    "title": "Came with nothing",
+    "kind": "guests",
+    "code": "$('.guest[data-things=\"0\"]')"
+  },
+  {
+    "title": "Phone, but no bag",
+    "kind": "guests",
+    "code": "$('.guest.has-phone').not('.has-bag')"
+  },
+  {
+    "title": "Arrived from 20:30 to 21:00",
+    "kind": "guests",
+    "code": "$('.guest').filter(function () {\n      return +$(this).attr('data-minutes') >= 1230 && +$(this).attr('data-minutes') <= 1260;\n    })"
+  },
+  {
+    "title": "After 21:00, not an AITU student",
+    "kind": "guests",
+    "code": "$('.guest').not('.aitu').filter(function () {\n      return +$(this).attr('data-minutes') > 1260;\n    })"
+  },
+  {
+    "title": "Immediately next to Askar",
+    "kind": "guests",
+    "code": "$('.guest[data-name=\"Askar\"]').prev('.guest').add($('.guest[data-name=\"Askar\"]').next('.guest'))"
+  },
+  {
+    "title": "Last guest in each room",
+    "kind": "guests",
+    "code": "$('.guest-list > .guest:last-child')"
+  },
+  {
+    "title": "Third guest in each room",
+    "kind": "guests",
+    "code": "$('.guest-list > .guest:nth-child(3)')"
+  },
+  {
+    "title": "Everyone after Timur",
+    "kind": "guests",
+    "code": "$('.guest[data-name=\"Timur\"]').nextAll('.guest')"
+  },
+  {
+    "title": "Immediately before someone in black",
+    "kind": "guests",
+    "code": "$('.guest.color-black').prev('.guest')"
+  },
+  {
+    "title": "The room with Aruzhan",
+    "kind": "rooms",
+    "code": "$('.guest[data-name=\"Aruzhan\"]').closest('.room')"
+  },
+  {
+    "title": "Rooms with fewer than 6 guests",
+    "kind": "rooms",
+    "code": "$('.room').filter(function () {\n      return $(this).find('.guest').length < 6;\n    })"
+  },
+  {
+    "title": "A cup in the room, but no glasses",
+    "kind": "rooms",
+    "code": "$('.room').has('.guest.has-cup').not(':has(.guest.has-glasses)')"
+  },
+  {
+    "title": "Earliest arrival in each room",
+    "kind": "guests",
+    "code": "$('.guest').filter(function () {\n      const minutes = +$(this).attr('data-minutes');\n      return $(this).siblings('.guest').filter(function () {\n        return +$(this).attr('data-minutes') < minutes;\n      }).length === 0;\n    })"
+  },
+  {
+    "title": "Miras joins Askar and Inkar",
+    "kind": "guests",
+    "code": "Party.getOrMakeGuest({ name: 'Miras', color: 'blue', arrival: '21:20', aitu: true, things: ['phone'] })\n      .hide().insertAfter('.guest[data-name=\"Askar\"]').fadeIn(350)"
+  },
+  {
+    "title": "Natasha goes home",
+    "kind": "guests",
+    "code": "$('.guest[data-name=\"Natasha\"]').animate({ top: -10 }, 140).animate({ top: 0 }, 160).fadeOut(350, function () {\n      $(this).remove();\n      $('#house').attr('aria-busy', 'false');\n    })"
+  },
+  {
+    "title": "Who took the birthday cake?",
+    "kind": "guests",
+    "code": "$('.floor[data-floor=\"1\"] .guest.has-crumbs').not('.has-cup').filter(function () {\n      const minutes = +$(this).attr('data-minutes');\n      return minutes > 1260 && minutes < 1290 &&\n        ($(this).prev('.guest').is('.aitu') || $(this).next('.guest').is('.aitu'));\n    })"
+  }
+]

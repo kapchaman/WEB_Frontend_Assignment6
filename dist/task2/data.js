@@ -1,0 +1,32 @@
+/* Picture order is preserved here. All case searches use the DOM, not this array. */
+window.PartyData = [
+  { id: 'balcony', name: 'Balcony', floor: 2, guests: [
+    { name: 'Aigerim', color: 'green', arrival: '20:45', aitu: true, things: ['cup', 'crumbs'] },
+    { name: 'Aliya', color: 'black', arrival: '21:15', aitu: false, things: ['phone', 'cup'] },
+    { name: 'Madina', color: 'green', arrival: '22:10', aitu: false, things: ['phone', 'bag', 'crumbs'] },
+    { name: 'Ivan', color: 'black', arrival: '20:10', aitu: true, things: ['cup'] }
+  ]},
+  { id: 'hall', name: 'Hall', floor: 2, guests: [
+    { name: 'Arman', color: 'yellow', arrival: '20:35', aitu: false, things: ['bag', 'glasses'] },
+    { name: 'Sophia', color: 'purple', arrival: '21:20', aitu: true, things: ['phone'] },
+    { name: 'Dias', color: 'green', arrival: '19:45', aitu: true, things: [] },
+    { name: 'Bekzat', color: 'purple', arrival: '20:55', aitu: false, things: ['bag', 'cup', 'crumbs'] },
+    { name: 'Aruzhan', color: 'blue', arrival: '21:50', aitu: true, things: ['phone'] },
+    { name: 'Saule', color: 'green', arrival: '21:25', aitu: false, things: ['glasses'] }
+  ]},
+  { id: 'kitchen', name: 'Kitchen', floor: 1, guests: [
+    { name: 'Nurlan', color: 'red', arrival: '19:40', aitu: true, things: ['phone', 'cup'] },
+    { name: 'Emma', color: 'black', arrival: '20:15', aitu: false, things: ['bag'] },
+    { name: 'Timur', color: 'green', arrival: '21:05', aitu: true, things: ['phone', 'bag', 'crumbs'] },
+    { name: 'Sergey', color: 'yellow', arrival: '20:50', aitu: false, things: [] },
+    { name: 'Yerlan', color: 'red', arrival: '21:40', aitu: true, things: ['glasses', 'phone'] },
+    { name: 'Kamila', color: 'green', arrival: '20:05', aitu: false, things: ['cup'] }
+  ]},
+  { id: 'living-room', name: 'Living room', floor: 1, guests: [
+    { name: 'Daniel', color: 'blue', arrival: '19:55', aitu: true, things: ['glasses'] },
+    { name: 'Zarina', color: 'green', arrival: '21:10', aitu: false, things: ['bag', 'phone', 'crumbs'] },
+    { name: 'Natasha', color: 'yellow', arrival: '20:30', aitu: true, things: [] },
+    { name: 'Askar', color: 'black', arrival: '21:00', aitu: true, things: ['phone'] },
+    { name: 'Inkar', color: 'purple', arrival: '20:20', aitu: false, things: ['bag'] }
+  ]}
+];
