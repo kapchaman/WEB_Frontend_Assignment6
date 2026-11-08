@@ -1,0 +1,214 @@
+{
+  "passed": 52,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Task 1 / case 1",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 2",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 3",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 4",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 5",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 6",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 7",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 8",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 9",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 10",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 11",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 12",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 13",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 14",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 15",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 16",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 17",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 18",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 19",
+      "passed": true
+    },
+    {
+      "name": "Task 1 / case 20",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 1",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 2",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 3",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 4",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 5",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 6",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 7",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 8",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 9",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 10",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 11",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 12",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 13",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 14",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 15",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 16",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 17",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 18",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 19",
+      "passed": true
+    },
+    {
+      "name": "Task 2 / case 20",
+      "passed": true
+    },
+    {
+      "name": "Spotlight then Clear",
+      "passed": true
+    },
+    {
+      "name": "Room spotlight",
+      "passed": true
+    },
+    {
+      "name": "Clear during Natasha jump completes removal",
+      "passed": true
+    },
+    {
+      "name": "Sort during Natasha jump completes removal",
+      "passed": true
+    },
+    {
+      "name": "Clear during Miras fade leaves a visible card",
+      "passed": true
+    },
+    {
+      "name": "Move Arman and run case 1",
+      "passed": true
+    },
+    {
+      "name": "Moved Miras is not duplicated by case 18",
+      "passed": true
+    },
+    {
+      "name": "Sort twice restores picture order",
+      "passed": true
+    },
+    {
+      "name": "Five rapid sort clicks",
+      "passed": true
+    },
+    {
+      "name": "Sort during spotlight preserves final opacity",
+      "passed": true
+    },
+    {
+      "name": "Move during sort keeps picture restoration available",
+      "passed": true
+    },
+    {
+      "name": "Guest details, rapid switch, Esc and outside close",
+      "passed": true
+    }
+  ]
+}

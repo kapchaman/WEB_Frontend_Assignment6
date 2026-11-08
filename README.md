@@ -31,7 +31,7 @@ Cases 18 and 19 are temporary scenario changes. The next case rebuilds them from
 
 ## Checks
 
-All 20 initial results were checked in Chrome. Task 2 checks cover case 3 and Clear, guest details and Esc, moving Arman to the balcony and rerunning case 1, sorting and restoring the living room, and five rapid sort clicks. Case 19 also checks that all remaining guests become pale after Natasha leaves.
+All 20 initial results were checked in the original Chrome run. The current review also runs the shared regression suite in jsdom (DOM behavior and final effect states; no visual layout engine). Task 2 checks cover case 3 and Clear, guest details and Esc, moving Arman to the balcony and rerunning case 1, sorting and restoring the living room, and five rapid sort clicks. Case 19 also checks that all remaining guests become pale after Natasha leaves.
 
 ## Submission
 
@@ -42,6 +42,10 @@ The report contains this repository URL. Review the explanations and conclusion,
 ## Repeat the browser checks
 
 From the project directory, run `python3 -m http.server 8000` and open `http://localhost:8000/dist/tests/index.html`. The suite checks all 20 cases in both tasks and combinations of rapid actions, including removal, spotlight, Clear, moves and sorting. The app itself still works directly from `dist/index.html` without a server.
+
+For DOM checks use Node 22.22.2+, 24.15.0+ or 26+ (jsdom requirements), and install the test-only dependency with `npm install --no-save jsdom@31.0.0`, then run `node qa/run-dom-checks.cjs`. No dependency is needed to use the assignment. The latest results are in `qa/latest-dom-results.json`. Browser geometry and animation smoothness still need a real-browser check.
+
+Case effects use the default jQuery queue; sorting uses a separate `layout` queue. `finishCase()` completes pending removal callbacks before Clear, sorting or movement. Moving into a room that was sorted preserves its Restore picture order action.
 
 ## Credits
 

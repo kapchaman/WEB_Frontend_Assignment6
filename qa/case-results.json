@@ -1,0 +1,102 @@
+[
+  {
+    "case": 1,
+    "title": "Case 1 · Who is in the hall?",
+    "names": "Arman · Sophia · Dias · Bekzat · Aruzhan · Saule"
+  },
+  {
+    "case": 2,
+    "title": "Case 2 · Yellow or purple clothes",
+    "names": "Arman · Sophia · Bekzat · Sergey · Natasha · Inkar"
+  },
+  {
+    "case": 3,
+    "title": "Case 3 · AITU students upstairs",
+    "names": "Aigerim · Ivan · Sophia · Dias · Aruzhan"
+  },
+  {
+    "case": 4,
+    "title": "Case 4 · Glasses or a bag",
+    "names": "Madina · Arman · Bekzat · Saule · Emma · Timur · Yerlan · Daniel · Zarina · Inkar"
+  },
+  {
+    "case": 5,
+    "title": "Case 5 · Came with nothing",
+    "names": "Dias · Sergey · Natasha"
+  },
+  {
+    "case": 6,
+    "title": "Case 6 · Phone, but no bag",
+    "names": "Aliya · Sophia · Aruzhan · Nurlan · Yerlan · Askar"
+  },
+  {
+    "case": 7,
+    "title": "Case 7 · Arrived from 20:30 to 21:00",
+    "names": "Aigerim · Arman · Bekzat · Sergey · Natasha · Askar"
+  },
+  {
+    "case": 8,
+    "title": "Case 8 · After 21:00, not an AITU student",
+    "names": "Aliya · Madina · Saule · Zarina"
+  },
+  {
+    "case": 9,
+    "title": "Case 9 · Immediately next to Askar",
+    "names": "Natasha · Inkar"
+  },
+  {
+    "case": 10,
+    "title": "Case 10 · Last guest in each room",
+    "names": "Ivan · Saule · Kamila · Inkar"
+  },
+  {
+    "case": 11,
+    "title": "Case 11 · Third guest in each room",
+    "names": "Madina · Dias · Timur · Natasha"
+  },
+  {
+    "case": 12,
+    "title": "Case 12 · Everyone after Timur",
+    "names": "Sergey · Yerlan · Kamila"
+  },
+  {
+    "case": 13,
+    "title": "Case 13 · Immediately before someone in black",
+    "names": "Aigerim · Madina · Nurlan · Natasha"
+  },
+  {
+    "case": 14,
+    "title": "Case 14 · The room with Aruzhan",
+    "names": "Hall"
+  },
+  {
+    "case": 15,
+    "title": "Case 15 · Rooms with fewer than 6 guests",
+    "names": "Balcony · Living room"
+  },
+  {
+    "case": 16,
+    "title": "Case 16 · A cup in the room, but no glasses",
+    "names": "Balcony"
+  },
+  {
+    "case": 17,
+    "title": "Case 17 · Earliest arrival in each room",
+    "names": "Ivan · Dias · Nurlan · Daniel"
+  },
+  {
+    "case": 18,
+    "title": "Case 18 · Miras joins Askar and Inkar",
+    "names": "Miras"
+  },
+  {
+    "case": 19,
+    "title": "Case 19 · Natasha goes home",
+    "names": "Natasha"
+  },
+  {
+    "case": 20,
+    "title": "Case 20 · Who took the birthday cake?",
+    "names": "Zarina"
+  }
+]
